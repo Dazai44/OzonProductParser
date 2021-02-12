@@ -1,0 +1,25 @@
+{
+    "require": {
+            "jonnyw/php-phantomjs": "4.*",
+            "imangazaliev/didom": "^1.16"
+        },
+        "config": {
+            "bin-dir": "C:/OsPanel/domains/trenphp.loc/libs/bin"
+        },
+        "scripts": {
+            "post-install-cmd": [
+                "PhantomInstaller\\Installer::installPhantomJS"
+            ],
+            "post-update-cmd": [
+                "PhantomInstaller\\Installer::installPhantomJS"
+            ]
+        }
+}
+
+
+            
+        
+        
+            
+
+
